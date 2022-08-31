@@ -1,6 +1,9 @@
 body {
-    background: pink;
+    background: floralwhite;
     /* text-align: center; */
+}
+.nobull{
+    list-style-type: none;
 }
 
 #section1 {
