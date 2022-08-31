@@ -2,3 +2,14 @@ body {
     background: pink;
     /* text-align: center; */
 }
+
+#section2{
+    border: solid red 1px;
+    margin: 1rem;
+}
+
+#footer {
+    border: solid red 1px;
+    margin 1rem;
+
+}
