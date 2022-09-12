@@ -34,6 +34,25 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
+                                    <form action="from1">
+                                        <div class="row g-3">
+                                            <div class="col">
+                                                <input id="input11" type="text" class="form-control" placeholder="Título">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input12" type="text" class="form-control" placeholder="url">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input13" type="number" min="400" max="800" class="form-control" placeholder="Ancho">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input14" type="number" min="400" max="800" class="form-control" placeholder="Alto">
+                                            </div>
+                                            <div class="col-12">
+                                                <button id="btn1" type="button" class="btn btn-primary">Agregar</button>
+                                            </div>
+                                    </form>
+                                    <span id="span1"></span>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +66,27 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
+                                    <form id="form2" action="fromaudio">
+                                        <div class="row g-3">
+                                            <div class="col">
+                                                <input id="input21" type="text" class="form-control" placeholder="Título">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input22" type="text" class="form-control" placeholder="url">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input23"type="number" min="50" max="320" class="form-control" placeholder="Bitrate">
+                                            </div>
+                                            <div class="col-6 form-check form-switch">
+                                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheck">
+                                                <label class="form-check-label" for="flexSwitchCheckChecked">Mostrar controles</label>
+                                            </div>
+                                            <div class="col-12">
+                                                <button id="btn2" type="button" class="btn btn-primary">Agregar</button>
+                                            </div>
+                                    </form>
                                 </div>
+                                <span id="span2" ></span>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -60,11 +99,11 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <form class="row g-3" id="formBoton" method="post">
+                                    <form class="row g-3" id="form" action="#" method="get">
                                         <div class="col-md-6">
                                             <label for="inputClase">Clase</label>
                                             <select class="form-select mt-2" id="inputClase">
-                                                <option selected>Seleccionar...</option>
+                                                <option>Seleccionar...</option>
                                                 <option value="Button">Button</option>
                                                 <option value="Submit" selected>Submit</option>
                                                 <option value="Reset">Reset</option>
@@ -74,16 +113,22 @@
                                             <label for="inputTexto" class="form-label">Texto</label>
                                             <input type="text" class="form-control" id="inputTexto">
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-sm-6">
                                             <label for="inputTipo" class="form-label">Tipo</label>
-                                            <input type="text" class="form-control" id="inputTipo">
+                                            <select class="form-select mt-2" id="inputTipo">
+                                                <option>Seleccionar...</option>
+                                                <option value="numero" selected>Número</option>
+                                                <option value="texto">Texto</option>
+                                                <option value="email">Email</option>
+                                                <option value="pass">Password</option>
+                                            </select>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputColor" class="form-label">BG color</label>
-                                            <input type="color" class="form-control" id="inputColor">
+                                            <label for="inputColor" class="form-label">Selector de color</label><br>
+                                            <input type="color" class="form-control form-control-color" id="inputColor" value="#256D85">
                                         </div>
                                         <div class="col-12 mw-10">
-                                            <button type="submit" class="btn btn-primary" id="enviarBoton">Crear</button>
+                                            <button type="button" class="btn btn-primary" id="addBtn">Agregar</button>
                                         </div>
                                         <span id="mySpan"></span>
                                     </form>
@@ -100,19 +145,38 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
+                                    <form action="fromlistaelem">
+                                        <div class="row g-3">
+                                            <div class="col">
+                                                <input id="input41" type="number" class="form-control" placeholder="Id">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input42" type="text" class="form-control" placeholder="Nombre">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input43" type="text" class="form-control" placeholder="Status">
+                                            </div>
+                                            <div class="col">
+                                                <input id="input44" type="text" class="form-control" placeholder="Species">
+                                            </div>
+                                            <div class="col-12">
+                                                <button id="btn4" type="button" class="btn btn-primary">Agregar</button>
+                                            </div>
+                                    </form>
+                                    <span id="span4"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </section>
 
         </article>
 
     </main> 
 
-    <script src="../app/js-04.js"></script>
+    <script type="module" src="../app/js-04.js"></script>
     </body>
     
     </html>
