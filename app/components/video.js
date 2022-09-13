@@ -24,3 +24,6 @@ function crearVideo() {
     let userInput = JSON.stringify(newVideo);
     span1.innerHTML = userInput;
 }
+
+
+
