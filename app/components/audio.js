@@ -1,26 +1,16 @@
 export default class audio {
-    constructor(titulo, url, bitrate, controls) {
+    constructor(titulo, url, atributos) {
         this.titulo = titulo;
         this.url = url;
-        this.bitrate = bitrate;
-        this.controls = controls;
+        this.atributos = atributos;
     }
-}
-
-var newAudio = new audio();
-
-let btn2 = document.getElementById("btn2");
-btn2.addEventListener("click", crearAudio);
-
-let span2 = document.getElementById("span2");
-
-function crearAudio() {
-    mySpan.innerHTML = "";
-    newAudio.titulo = document.getElementById("input21").value;
-    newAudio.url = document.getElementById("input22").value;
-    newAudio.bitrate = document.getElementById("input23").value;
-    newAudio.controls = document.getElementById("flexSwitchCheck").value;
-    alert(`Objeto: Audio \n\n Título: ${newAudio.titulo} \n url: ${newAudio.url} \n Bitrate: ${newAudio.bitrate} \n Controles: ${newAudio.controls} `)
-    let userInput = JSON.stringify(newAudio);
-    span2.innerHTML = userInput;
+    render() {
+        let myRend =   `<div class="card" style="width: 18rem">
+                            <h5 class="card-title">${this.titulo}</h5>
+                                <audio controls ${this.atributos}>
+                                    <source src=${this.url} type="audio/mpeg">
+                                </audio>
+                        </div>`
+        return myRend;
+    }
 }
