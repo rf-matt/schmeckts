@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/schmeckts/doc/clase-08/static/css/main.09f4c214.css",
+    "main.js": "/schmeckts/doc/clase-08/static/js/main.053da098.js",
+    "static/js/787.3ea93f1d.chunk.js": "/schmeckts/doc/clase-08/static/js/787.3ea93f1d.chunk.js",
+    "index.html": "/schmeckts/doc/clase-08/index.html",
+    "main.09f4c214.css.map": "/schmeckts/doc/clase-08/static/css/main.09f4c214.css.map",
+    "main.053da098.js.map": "/schmeckts/doc/clase-08/static/js/main.053da098.js.map",
+    "787.3ea93f1d.chunk.js.map": "/schmeckts/doc/clase-08/static/js/787.3ea93f1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09f4c214.css",
+    "static/js/main.053da098.js"
+  ]
+}
