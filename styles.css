@@ -1,10 +1,17 @@
 body {
-    background: floralwhite;
+    background: #2b6777;
     /* text-align: center; */
 }
-
+h1{
+    text-align: center;
+    margin:2rem 0 2rem 0;
+}
 .nobull {
     list-style-type: none;
+}
+
+.container-fluid{
+    margin-left: 1rem;
 }
 
 #section1 {
@@ -20,5 +27,5 @@ body {
 #footer {
     border: solid gainsboro 1px;
     margin: 1rem;
-
+    display: flex;
 }
