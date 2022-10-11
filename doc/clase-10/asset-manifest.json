@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/schmeckts/doc/clase-10/static/css/main.6b57eb3e.css",
+    "main.js": "/schmeckts/doc/clase-10/static/js/main.356b5aab.js",
+    "static/js/787.0510f807.chunk.js": "/schmeckts/doc/clase-10/static/js/787.0510f807.chunk.js",
+    "static/media/bear.mp4": "/schmeckts/doc/clase-10/static/media/bear.3b89bb898dd9d9de98e0.mp4",
+    "static/media/9ab.jpg": "/schmeckts/doc/clase-10/static/media/9ab.6091b54574ca271e2fcc.jpg",
+    "static/media/wind8.wav": "/schmeckts/doc/clase-10/static/media/wind8.256c788924eba0ffebea.wav",
+    "index.html": "/schmeckts/doc/clase-10/index.html",
+    "main.6b57eb3e.css.map": "/schmeckts/doc/clase-10/static/css/main.6b57eb3e.css.map",
+    "main.356b5aab.js.map": "/schmeckts/doc/clase-10/static/js/main.356b5aab.js.map",
+    "787.0510f807.chunk.js.map": "/schmeckts/doc/clase-10/static/js/787.0510f807.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b57eb3e.css",
+    "static/js/main.356b5aab.js"
+  ]
+}
