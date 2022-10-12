@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/schmeckts/doc/clase-11/static/css/main.28b12976.css",
+    "main.js": "/schmeckts/doc/clase-11/static/js/main.ab1c102b.js",
+    "static/js/787.c5f8694d.chunk.js": "/schmeckts/doc/clase-11/static/js/787.c5f8694d.chunk.js",
+    "static/media/3.webp": "/schmeckts/doc/clase-11/static/media/3.b89e4049181fe8ff13e8.webp",
+    "static/media/2.webp": "/schmeckts/doc/clase-11/static/media/2.7524e8d2dff1f3e5fbe0.webp",
+    "static/media/4.webp": "/schmeckts/doc/clase-11/static/media/4.1b4cd67b62c458c903e6.webp",
+    "static/media/1.jpg": "/schmeckts/doc/clase-11/static/media/1.6091b54574ca271e2fcc.jpg",
+    "index.html": "/schmeckts/doc/clase-11/index.html",
+    "main.28b12976.css.map": "/schmeckts/doc/clase-11/static/css/main.28b12976.css.map",
+    "main.ab1c102b.js.map": "/schmeckts/doc/clase-11/static/js/main.ab1c102b.js.map",
+    "787.c5f8694d.chunk.js.map": "/schmeckts/doc/clase-11/static/js/787.c5f8694d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28b12976.css",
+    "static/js/main.ab1c102b.js"
+  ]
+}
