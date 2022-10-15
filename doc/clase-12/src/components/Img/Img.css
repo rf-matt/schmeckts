@@ -1,0 +1,20 @@
+ul {
+    list-style: none;
+}
+
+img {
+    width: 200px;
+    margin: .75rem 0 .75 0;
+}
+
+.contBtn {
+    margin: .75rem 0 0 0;
+}
+
+#btnAdd {
+    margin: 0 1rem 2rem 2rem;
+}
+
+#btnDel {
+    margin: 0 1rem 2rem 1rem;
+}
